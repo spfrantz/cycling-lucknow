@@ -1,0 +1,54 @@
+table {
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 10px;
+}
+table th a:hover, table td a:hover {
+  font-style: italic;
+}
+
+ul li, ol li {
+  padding: 7.5px;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.route {
+  border-top: 1px dashed darkgray;
+  border-bottom: 1px dashed darkgray;
+}
+
+tr td:nth-child(1) {
+  font-weight: bold;
+}
+
+@media (max-width: 799px) {
+  iframe {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .map-link {
+    display: inline;
+  }
+}
+@media (min-width: 800px) {
+  iframe {
+    width: 500px;
+    height: 580px;
+  }
+
+  .map-link {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

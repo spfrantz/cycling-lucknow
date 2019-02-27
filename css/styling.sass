@@ -1,0 +1,52 @@
+
+$padding_std: 10px
+$margin_std: 10px
+$border_style: 1px dashed darkgray
+
+table
+  border-collapse: collapse
+
+  th, td
+    padding: $padding_std
+
+    a
+      &:hover
+        font-style: italic
+
+%list_styles
+  li
+    padding: $padding_std * .75
+
+ol
+  @extend %list_styles
+  list-style-type: upper-roman
+
+ul
+  @extend %list_styles
+  list-style-type: circle
+
+%top_link
+  font-weight: bold
+
+.route
+  border-top: $border_style
+  border-bottom: $border_style
+
+tr
+  td:nth-child(1)
+    font-weight: bold
+
+@media (max-width: 799px)
+  iframe
+    display: none
+    width: 0
+    height: 0
+  .map-link
+    display: inline
+
+@media (min-width: 800px)
+  iframe
+    width: 500px
+    height: 580px
+  .map-link
+    display: none
