@@ -2,6 +2,8 @@
 
 This simple website contains information and personal reflections about cycling in and around the northern Indian city of Lucknow. I created it as an exercise for the excellent online course [CS50W: Web Programming with Python and JavaScript](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript).
 
+The site is hosted on <a href="https://spfrantz.github.io/cycling-lucknow/">GitHub Pages</a>.
+
 ## Pages
 
 The site contains five pages:
